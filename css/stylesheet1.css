@@ -1,0 +1,217 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin: 0 auto;
+padding: 0 auto;}
+body{
+	
+font-family: 'Be Vietnam Pro', sans-serif;
+		scroll-behavior: smooth;
+
+}
+.wrapper{
+	width: 1800px;
+	height: 100%;
+	margin: 0 auto;
+	scroll-behavior: smooth;
+
+	
+}
+.header{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 0px 98px;
+	width: 1800px;
+	height: 90px;
+	box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+	font-size: 20px;
+	color: #FFFFFF;
+    background-color: #0759AD;
+		position: fixed;
+        z-index: 10;
+}
+.header ul li:hover{
+	color: #FBFF65;
+}
+.img{
+	margin-left: -50px;
+}
+.header ul{
+	padding-left: 500px;
+			list-style-type: none;
+
+}
+.header ul li{
+	display: inline-flex;
+	padding: 0px 40px;
+
+}
+#banner{
+	background-image: url("../image/benjamin-voros-phIFdC6lA4E-unsplash.jpg");
+	height: 110vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-position: center;
+	text-align: center;
+	color: white;
+	font-size: 45px;
+	opacity: 0.9;
+}
+
+#banner i{
+	padding: 10px;
+	font-size: 40px;
+}
+#banner .muiten{
+	padding: 20px;
+	animation: muitenchuyendong 1s infinite alternate;
+	font-size: 80px;
+	
+}
+#banner i:hover{
+color: aqua;
+}
+
+
+
+
+@keyframes muitenchuyendong{
+	0%{
+		transform: translateY(0px);
+	}
+	100%{
+		transform: translateY(30px);
+	}
+}
+.project{
+	padding: 50px;
+	color: #CC1114;
+	
+}
+
+.project h1{
+	margin: 40px;
+	margin-left: 600px;
+	font-size: 40px;
+}
+.project h2{
+	margin: 60px 0 50px 30px;
+	font-size: 40px;
+}
+.project2{
+	width: 260px;
+	height: 410px;
+	background-color:#FF4747;
+	border-radius:15px;
+	padding: 20px;
+	margin: 0;
+	box-shadow: 5px 5px 30px;
+
+}
+
+	
+	
+	
+.project2 img{
+	width: 300px;
+	box-shadow: 10px 10px 50px #FFEAAE;
+	z-index: 25px;
+	border-radius:15px;
+	margin-left: -34px;
+	margin-top: -5px;
+
+}
+.project1{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-template-rows: auto auto auto auto;
+	grid-column-gap:50px;
+	padding-left: 40px;
+}
+.hubae h1{
+	padding: 40px;
+	margin-left: -10px;
+}
+
+.hubae1{
+	display: grid;
+	grid-template-columns: auto auto auto ;
+	grid-template-rows: auto auto auto ;
+	grid-column-gap:260px;
+	padding-left: 40px;
+}
+	
+
+.hubae img{
+	width: 300px;
+	box-shadow: 10px 10px 50px #92CBDD;
+	z-index: 25px;
+	border-radius:15px;
+	margin-left: -34px;
+	margin-top: -5px;
+
+}
+.hubae2{
+	width: 260px;
+	height: 410px;
+	background-color:#4088B5;
+	border-radius:15px;
+	padding: 20px;
+	margin: 0;
+	box-shadow: 5px 5px 30px;
+
+}
+.person h1{
+	padding: 40px;
+	margin-left: -10px;
+}
+
+.person1{
+	display: grid;
+	grid-template-columns: auto auto auto ;
+	grid-template-rows: auto auto auto ;
+	grid-column-gap:260px;
+	padding-left: 40px;
+}
+	
+
+.person img{
+	width: 300px;
+	box-shadow: 10px 10px 50px #C6C9BA;
+	z-index: 25px;
+	border-radius:15px;
+	margin-left: -34px;
+	margin-top: -5px;
+
+}
+.person2{
+	width: 260px;
+	height: 410px;
+	background-color:#8FCC9B;
+	border-radius:15px;
+	padding: 20px;
+	margin: 0;
+	box-shadow: 5px 5px 30px;
+
+}
+
+.footer{
+	width: 100%;
+	height: 100px;
+	background: #3A3939;
+	margin-top: 100px; 
+	color:aliceblue;
+	padding-top: 20px;
+	z-index: 14;
+	
+}
+
+.footer h3{
+text-align: center;
+	padding-top: 40px;
+	font-size: 15px;
+	
+}
+
